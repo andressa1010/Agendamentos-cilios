@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import prisma from "../Config/prisma";
+import prisma from "../Config/prisma.js";
 
 export const listaDeAgendamentos = async (req: Request, res: Response) => {
   try {
