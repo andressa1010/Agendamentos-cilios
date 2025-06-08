@@ -1,8 +1,8 @@
 import express from "express"
 import dotenv from "dotenv"
 import cors from "cors"
-import procedimentosRoutes from "./Routes/procedimentosRoutes"
-import agendamentosRoutes from "./Routes/agendamentosRoutes"
+import procedimentosRoutes from "./Routes/procedimentosRoutes.js"
+import agendamentosRoutes from "./Routes/agendamentosRoutes.js"
 
 dotenv.config()
 

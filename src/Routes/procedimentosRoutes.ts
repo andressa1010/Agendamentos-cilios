@@ -5,7 +5,7 @@ import {
   criarNovosProcedimentos,
   deletarProcedimentos,
   listaDeProcedimentos,
-} from "../Controllers/procedimentosControllers";
+} from "../Controllers/procedimentosControllers.js";
 
 const router = Router();
 
